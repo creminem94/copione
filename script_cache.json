@@ -1,0 +1,1007 @@
+{
+  "blocks": [
+    {
+      "character": "SCENA",
+      "text": "CENA CON DELITTO\nDi Valentina Nardin e Matteo Bertassello\nPERSONAGGI: Jason Silton (prete): Francesco."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Simone."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Enrico."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Caterina/Aurora."
+    },
+    {
+      "character": "Scarlett Heaven",
+      "text": "Elisa."
+    },
+    {
+      "character": "Detective Handlens",
+      "text": "Riccardo/Matteo/Valentina."
+    },
+    {
+      "character": "SCENA",
+      "text": "SCENA 1\nIn scena entra il detective che spiega cosa è successo al pubblico,\nma man mano che lo spiega gli attori entrano come se lui stesse\nfacendo vedere un video e si freezano quando lui mette in pausa."
+    },
+    {
+      "character": "Detective",
+      "text": "Buonasera colleghi. Per chi non mi conosce io sono\nil detective Handlens. Mi dispiace disturbarvi,\na ora di cena, ma mi è arrivato un nuovo caso che\nda solo non riesco a risolvere, perciò ho bisogno\ndi voi. Ieri sera, ero ospite proprio qui, a Villa\nSwan, dimora di Nick Swan, un caro amico. Nick si\nsarebbe dovuto sposare oggi con Alice Ceased.\nPurtroppo però, questa mattina, alle ore 8: 00…\nUrla da fuori scena"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Aaaaaaahh. ( )."
+    },
+    {
+      "character": "Detective",
+      "text": "Un urlo terrificante mi ha svegliato. Sono corso\nfuori dalla mia stanza e ho trovato la signora\nScarlet Heaven, la cantante che doveva esibirsi\nalla festa nuziale. Era paralizzata dalla paura.\nOltre a me sono subito accorsi tutti quelli che\nerano presenti nella villa: Nick Swan, il\nproprietario.\nNick Swan si alza e si avvicina."
+    },
+    {
+      "character": "Detective",
+      "text": "Jason Silton, il prete che doveva celebrare la\ncerimonia, nella cappella privata di Villa Swan.\nJason Silton si alza\n."
+    },
+    {
+      "character": "Detective",
+      "text": "Ashley Drags, la wedding planner.\nAshley Drags si alza e si avvicina."
+    },
+    {
+      "character": "Detective",
+      "text": "Eliah Korner, Migliore amico e testimone dello\nsposo.\nEliah si alza e si avvicina.\nAl pubblico"
+    },
+    {
+      "character": "Detective",
+      "text": "Alla vista del cadavere, tutti\nerano sconvolti, perciò, sono dovuto intervenire.\nAgli attori\nSignore e signori, vi prego di\nmantenere la calma, io sono un detective e questa\nè una scena del crimine, vi prego di non toccare\nnulla."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Mantenere la calma, non toccare nulla?! Handlens\nstai scherzando vero?! Questa è casa mia, quella\nVerso il fuori scena\nè la mia futura sposa! ( )\nAlice! Alice! Rispondimi, dimmi che non sei morta\nRivolto al detective\ndavvero! ( ) Io voglio sapere\nimmediatamente cosa è successo!"
+    },
+    {
+      "character": "Detective",
+      "text": "Nick, ti prego di calmarti, capisco lo shock, ma\nfinché la scientifica non sarà qui non possiamo\ntoccare nulla. Dobbiamo aspettare, pertento\nchiedo a tutti voi di spostarvi in salone."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Questa è casa mia, faccio quello che voglio! Io\ne te siamo amici, come puoi trattarmi così?!"
+    },
+    {
+      "character": "Detective",
+      "text": "Nick, per favore, non rendere le cose più\ndifficili di così. Vai di là con gli altri."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Altrimenti? Cosa mi fai? Mi arresti?"
+    },
+    {
+      "character": "Detective",
+      "text": "Solo se sarà necessario."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Signor Swan, posso capire la disperazione e la\nsituazione, ma dobbiamo lasciar lavorare la\npolizia. Accomodiamoci tutti di là."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Signori, guardate la signora Heaven, è sotto\nshock. Per favore, cerchiamo di restare calmi."
+    },
+    {
+      "character": "Detective",
+      "text": "Signora Scarlet, vada pure a prendere un bicchier\nd’acqua in cucina, ma poi la prego di unirsi\nimmediatamente al gruppo. Qualcuno di voi la\naccompagni per favore.\nGli ospiti vanno a sedersi, mentre le due donne escono, ma dopo\nalcuni secondi, Scarlet urla di nuovo.\nDall’altra parte delle quinte"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Aaaaahhh."
+    },
+    {
+      "character": "Detective",
+      "text": "E ora cosa succede?\nTutti corrono a vedere dall’altra parte."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Non è possibile… Due morti in un colpo solo."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Prima Alice, e ora anche Benny. Non è possibile.\nCosa sta succedendo?! Io voglio andarmene di qui."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Che le anime di queste due donne possano essere\nassunte in cielo, e che Dio ci guidi a scoprire\nla verità."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Detective, fra quanto arriva la polizia? Giurami\nche troverai il colpevole a qualsiasi costo."
+    },
+    {
+      "character": "Detective",
+      "text": "Farò del mio meglio. Te lo prometto Nick. Per ora\nperò, dobbiamo riunirci di là. La polizia è qui,\nlasciamoli lavorare.\nI sospettati vanno a sedersi ai loro posti tra i tavoli."
+    },
+    {
+      "character": "Detective",
+      "text": "Ora, questo è ciò che la polizia ha scoperto dopo\nuna prima analisi. Abbiamo due corpi morti: quelli di Alice Ceased e della sua migliore amica\nBenny Moored. Entrambe sono decedute più o meno\nintorno alle 2: 00 di notte. Da una prima analisi\nsembra sia morta prima la signorina Alice Ceased\ne poi l’amica Benny Moored. Nella villa, non ci\nsono segni di effrazione, ciò porta a due sole\nconclusioni: o l’assassino aveva la chiave della\nvilla, o l’omicida è uno di voi signori."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Non diciamo assurdità! Tutti noi conoscevamo\nAlice, perché avremmo dovuto ucciderla?"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Nick ha ragione, siamo venuti qui per celebrare\nil suo matrimonio. L’assassino deve per forza\nvenire dall’esterno."
+    },
+    {
+      "character": "Detective",
+      "text": "Certo, è una possibilità, quindi Nick, ti chiedo\nchi altri aveva le chiavi di casa."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "La donna delle pulizie, Jane Lace, ma è una\nbravissima persona, non riesco a credere che\npossa aver fatto una cosa del genere. È troppo\nanziana per riuscire a uccidere due persone."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Tra l’altro, Nick, le chievi che avevi dato a lei\nsono andato a recuperarle io e le ho portate alla\nsignorina Ashley Drags, in modo che potesse\nentrare e uscire senza problemi dalla villa\ndurante l’organizzazione del matrimonio.\nAshley Drags, scrive sulla sua lavagnetta: Confermo, le chiavi le\nho io. Poi estrae le chiavi dalla borsetta."
+    },
+    {
+      "character": "Detective",
+      "text": "Non c’è nessun altro?"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "No."
+    },
+    {
+      "character": "Detective",
+      "text": "È possibile che la signora delle pulizie Jane Lace\nsi sia fatta una copia delle chiavi?"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Detective, io conosco bene la signora Lace, viene\na messa tutte le domeniche alle 8: 00, pulisce\nanche la chiesa come volontaria e ha quattro\nnipotini di cui occuparsi. È una persona onesta.\nNon farebbe mai una cosa del genere."
+    },
+    {
+      "character": "Detective",
+      "text": "Quanti anni avete detto che ha?"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Più di ottanta di sicuro."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Questo la esclude già dalla lista dei sospettati\ndi sicuro detective. Alice è morta soffocata, non\nè vero? Quando l’ho trovata aveva il cuscino\npremuto sul viso. Una signora di ottant’anni non\navrebbe mai potuto vincere una lotta con una di\ntrentaquattro."
+    },
+    {
+      "character": "Detective",
+      "text": "Ottima capacità di osservazione signora Scarlet,\nsoprattutto per una che sembrava sotto shock."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Che cosa vorrebbe dire detective?\nScrive sulla lavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Che sta sospettando di\nnoi."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Non può dire sul serio detective. Non può credere\nche uno di noi farebbe una cosa del genere."
+    },
+    {
+      "character": "Detective",
+      "text": "Sto solo facendo il mio lavoro. Gli indizi per\nora ci dicono che nessuno è entrato dall’esterno\ne questo riduce il campo dei sospettati solo a\nvoi."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "A noi, detective. Anche lei era qui ieri notte."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Giusto, Ashley ha ragione. Anche lei era qui ieri\nnotte. Anche lei dovrebbe essere sospettato."
+    },
+    {
+      "character": "Detective",
+      "text": "È una cosa assurda, ma va bene, mi inserirò\nanch’io tra i sospettati e lascerò che siano i\nmiei colleghi a proseguire con le indagini.\nAl pubblico"
+    },
+    {
+      "character": "Detective",
+      "text": "Miei cari colleghi, ora tocca a voi.\nPotrete interrogare tutti i sospettati che\npasseranno per il vostro tavolo. Avrete un minuto\nper interrogatorio. Alla fine di ogni\nsuona un\ninterrogatorio sentirete questo suono (\ncampanello\n). Siccome i nostri ospiti vogliono che\nanch’io sia inserito tra i sospettati, vi darò la\npossibilità di interrogare anche me, certo che\nalla fine la verità verrà a galla."
+    },
+    {
+      "character": "SCENA",
+      "text": "Antipasto\nSCENA 2\nI personaggi si alzano dal tavolo e tornano nel salone dove parlano\ntra loro."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Non ci posso credere, sono prigioniero in casa\nmia. Come possono sospettare di me? Quella che è\nmorta è la donna che avevo scelto di sposare."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Sai benissimo che questo è quello che pensiamo\ntutti. Ognuno di noi è qui senza motivo. Chi\navrebbe mai avuto motivo di uccidere Alice e Benny\nla sua migliore amica?"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Nick, ti chiedo scusa, ma siamo già qui da\nparecchie ore e io sono stufo. Tu volevi davvero\nsposare Alice? Inoltre a Benny non sei mai\npiaciuto non è vero?"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Cosa vorresti dire?"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Beh, posso parlare onestamente?\nsi"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Forza parla liberamente se hai coraggio (\navvicina minaccioso a Eliah\n)."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Ragazzi non litigate. Vi prego."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Siamo solo nervosi per la situazione, cerchiamo\ndi mantenere i nervi saldi."
+    },
+    {
+      "character": "Detective",
+      "text": "No, aspettate, quello che Eliah voleva dire\npotrebbe essere utile alle indagini. Dicci pure\ncosa stavi per dire."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Attento a quello che fai Eliah…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Mi dispiace Nick, sai che ti sono amico, ma a\nquesto punto devo dire quello che penso o\nrischieremo di non uscire mai di qui."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "E cosa pensi sentiamo…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Scusa Nick, ma non puoi continuare a proteggerla…\nIo so che voi due avevate una relazione da anni.\nTu non hai mai voluto che Nick sposasse Alice,\nnon è vero Scarlet?!"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Cosa?! Ma come ti permetti?!"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "è inutile negare, me l’ha detto Nick in persona\nall’addio al celibato."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Nick?! Come hai potuto?! Era il nostro segreto!"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "E lui era il mio migliore amico, non credevo che\nmi avrebbe mai tradito in questo modo."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Non avrei voluto, ma sono fermamente convinto che\nl’assassina sia proprio Scarlett. Voglio dire: è\nlei che ha accettato l’incarico di cantante del\nmatrimonio, nonostante sapesse che Alice era la\ntua fidanzata. Inoltre, è lei che ha trovato il\ncorpo, anzi entrambi i corpi e sapeva anche che\nAlice era stata soffocata. Direi che gli indizi\nparlano chiaro."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Scarlet non farebbe mai una cosa del genere,\nvero?! Dimmi che non l’avresti mai fatto!"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Certo che non lo avrei mai fatto! Non sono\nun’assassina!"
+    },
+    {
+      "character": "Detective",
+      "text": "Calmiamoci tutti. Gli indizi puntano contro di\nlei, certo, ma non abbiamo prove. Lasciamo che i\nmiei colleghi facciano il loro lavoro. Farò\npresente queste nuove scoperte a tutti loro, così\nche le mettano a verbale. Sapranno bene come usare\nqueste informazioni."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Nick, ti prego, credimi, non avrei mai fatto una\ncosa del genere. Io ti amo, non ti avrei mai fatto\nsoffrire in questo modo. Non avrei potuto…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Che cosa vuole dire con non avrei potuto?"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Sedici anni fa, dalla nostra relazione, io…"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Tu cosa?"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Io sono rimasta incinta."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Cosa?! Di che cosa stai parlando?! Perché non me\nl’hai mai detto?"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Perché non volevo che pensassi che ero rimasta\nincinta per ereditare la tua fortuna. A me la\nnostra relazione andava bene così."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Per forza, tanto Nick ti procurava mille lavori\nnelle feste più esclusive. Praticamente ti\nmanteneva già senza doverti pagare gli alimenti…"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Smettila!"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Signor Eliah, un po’ di sensibilità e di umanità.\nQuesta relazione li ha fatti soffrire entrambi."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Sì, ma Nick non avrebbe mai ucciso né lasciato\nAlice, e questo Scarlet lo sapeva bene!"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Eliah! Sta’ zitto un po’! Scarlet, hai portato a\ntermine la gravidanza? Chi è, e dov’è in questo\nPausa\nmomento nostra figlia? ( ) Rispondimi!"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "è tutta una balla per distogliere l’attenzione\nNick…"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Ti ho detto di stare zitto!"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Tua figlia… è qui.\nSulla lavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Ciao papà."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Stai scherzando?! Ashley… Tu… E lo sapevi? Perché\nnon me l’hai mai detto?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Perché mamma mi ha raccontato tutto. Voleva\nvederti felice, anche se con un’altra donna."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "E tu, cara? Come ti senti a riguardo?"
+    },
+    {
+      "character": "Detective",
+      "text": "Già, la mamma avrebbe anche potuto volere la\nfelicità di un uomo che amava, ma tu Ashley? Tu\nsei una figlia abbandonata da un uomo, che ha\nferito tua madre per anni e che ora ti stava\ncostringendo a preparare le sue nozze con\nun’altra donna. Era l’occasione perfetta per\nvendicarti. Non trovi?"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Ma andiamo detective è solo una ragazzina! È ovvio\nche è stata la madre."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Vi ricordo che Alice è morta soffocata. Una\nragazzina non sarebbe mai riuscita a fare una cosa\ndel genere."
+    },
+    {
+      "character": "Detective",
+      "text": "La ragazzina in questione ha sedici anni ed è una\npersona molto sportiva. La cosa non è da\nescludere, anche se un uomo avrebbe fatto\nsicuramente molta meno fatica…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Appunto…"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Eliah, non è che allora sei stato proprio tu?! Tu\neri l’unico a sapere della mia relazione…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "E perché avrei dovuto farlo?"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Forse perché sapevi che lui non lo avrebbe mai\nfatto…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Avrei semplicemente potuto svelare la verità e\nfar saltare il matrimonio, perché organizzare un\nomicidio?"
+    },
+    {
+      "character": "Detective",
+      "text": "Un duplice omicidio. Non stiamo tenendo in\nconsiderazione Benny Moored. La migliore amica\ndella vittima.\nSulla lavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "E se fosse stata lei? Potrebbe\naver ucciso la signora alice e poi essersi\nsuicidata per i sensi di colpa."
+    },
+    {
+      "character": "Detective",
+      "text": "Non è una cosa da escludere, ci avevo già pensato,\nma lei, io e il prete sono gli unici senza un\nmovente…"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Almeno per quanto ne sappiamo noi…"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Cosa vuoi dire Scarlet?"
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Non voglio dire nulla, ma so che Don Silton, qui,\nera il padre spirituale di Alice, dico bene?\nMagari in qualche confessione lei vi ha detto\nqualcosa che a voi non è andato a genio…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Uno c’è il segreto confessionale e non ho\nintenzione di rivelare ciò che Alice mi diceva,\ndue sono un uomo di chiesa, l’omicidio è un\npeccato capitale, non ricorrerei mai a una cosa\ndel genere."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Quindi don, Alice ti aveva detto qualcosa in\nconfessione che potrebbe aiutare le indagini…"
+    },
+    {
+      "character": "Detective",
+      "text": "Se così fosse lei rischierebbe grosso a non\nrivelarcelo, potrei farla arrestare per intralcio\nalla giustizia."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Le vostre sono solo supposizioni, Alice mi\nconfessava solo i suoi peccati, niente di ciò che\nmi diceva aiuterebbe le indagini."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Però le vostre confessioni erano insolitamente\nlunghe. Ieri ho aspettato un’ora e un quarto che\nla signora Alice uscisse dalla cappella privata,\nin modo da poter sistemare gli ultimi addobbi."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Devo farti i miei complimenti Scarlet. Sei\nriuscita a spostare i sospetti su qualcun altro\nin maniera molto scaltra, ma sono sicuro che la\npolizia riuscirà a dimostrare la tua\ncolpevolezza. Vedrai."
+    },
+    {
+      "character": "Detective",
+      "text": "E va bene signori, ora calmiamoci tutti. Lasciamo\nche la giustizia prosegua con gli strumenti\nidonei. È ora di proseguire con gli\ninterrogatori. Buon lavoro colleghi. Le modalità\ndell’interrogatorio le conoscete già."
+    },
+    {
+      "character": "SCENA",
+      "text": "Primi\nSCENA 3\nIl detective richiama tutti i personaggi che si alzano dal tavolo e\ntornano nel salone."
+    },
+    {
+      "character": "Detective",
+      "text": "Miei cari signori, a quanto pare, sono stati\ntrovati dei nuovi indizi. Nella stanza di Alice,\ne anche in cucina dove giaceva il corpo di Benny\nsono stati trovati alcuni oggetti che ora vi farò\nvedere.\nDei capelli neri e lunghi. La scientifica ci dirà\na breve a chi appartengono, ma già così si\npotrebbe dire che di sicuro non sono dei tre\nsospettati di genere maschile.\nDue piccoli scudetti, con uno stemma nobiliare di\nfamiglia. Questi per caso appartengono a qualcuno\ndi voi?\nNessuno risponde."
+    },
+    {
+      "character": "Detective",
+      "text": "Di nessuno eh… E va bene, li faremo analizzare\ndalla scientifica e scopriremo di chi sono dal\nDNA che c’è sopra…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Uno è mio, è il mio stemma di famiglia. Il simbolo\ndei Silton. La mia è un’antica casata nobiliare\ne io essendo il secondo genito non ho avuto altra\nscelta che prendere i voti. Vi assicuro però che\nnon ho idea di come possa essere finito in camera\ndi Alice."
+    },
+    {
+      "character": "Detective",
+      "text": "Non so perché, ma me l’aspettavo quest’ultima\nfrase."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Detective, non sto mentendo, l’unica cosa che mi\nviene in mente è che lo stemma mi sia caduto da\nqualche parte e che Alice l’abbia raccolto. Non\nc’è altra spiegazione. Di solito lo porto in\ntasca."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Oppure potrebbe esserti caduto dalla tasca mentre\ncercavi di soffocare Alice."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Signora Scarlet, capisco che la stanchezza e il\nnervosismo giochino brutti scherzi, ma io sono un\nprete, non farei mai una cosa del genere."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Esatto, e poi che motivo avrebbe Don Silton di\nuccidere Alice? Per celebrare il nostro\nmatrimonio era stata fatta una generosa donazione\nalla parrocchia."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Qualcuno potrebbe aver rubato lo stemma e averlo\nmesso vicino ai cadaveri per depistare le\nindagini.\nSulla lavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Lo stesso si potrebbe dire dei\ncapelli."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Ashley ha ragione, anche i capelli potrebbero\nessere stati messi lì come depistaggio, ma rubare\ndei capelli è molto più difficile che rubare uno\nscudetto. Inoltre c’è un’altra questione, di\nscudetto io ne ho sempre avuto uno solo… L’altro\ndeve essere un falso."
+    },
+    {
+      "character": "Detective",
+      "text": "No, la scientifica conferma che è uno stemma\noriginale. E inoltre, sopra ci sono delle\nimpronte…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Perfetto, così scopriremo chi l’ha messo vicino\nai cadaveri."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "E avremo le prove per incastrare il colpevole."
+    },
+    {
+      "character": "Detective",
+      "text": "In realtà questo non sarà sufficiente, ma\nsicuramente abbiamo due indizi in più. Sullo\nscudetto trovato nella camera di Alice, le\nimpronte corrispondono a quelle di don Jason\nSilton. Su quello trovato vicino al corpo di\nBenny, in cucina, invece, ci sono le impronte di…\nEliah Korner."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Ecco perché te la prendevi tanto con noi! Perché\nin realtà l’assassino sei tu! È Colpa tua!"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Eliah, ti prego, dimmi che non sei stato tu! Siamo\namici d’infanzia…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Nick, non ti farei mai una cosa del genere!"
+    },
+    {
+      "character": "Detective",
+      "text": "La scientifica, inoltre, ha dimostrato che i\ncapelli appartengono a due persone diverse. In\ncamera di Alice, c’era un capello della signora\nScarlet Heaven, mentre in cucina, vicino al corpo\ndi Betty, c’era un capello di Ashley Drags."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Quindi chi è stato detective?! In questa maniera\ngli indizi non ci aiutano a capire cosa è\nsuccesso."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Gli indizi in realtà escludono\nte dai colpevoli. La cosa è sospetta."
+    },
+    {
+      "character": "Detective",
+      "text": "Sì, gli indizi ci portano in questa direzione\neffettivamente."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "è chiaro che non sono stato io. Io amavo Alice,\nnon avrei mai fatto una cosa del genere. Tuttavia\nnon riesco a capire chi sia stato. Cosa ci\nfacevano gli stemmi dei Silton in camera di Alice\ne in cucina? Con le impronte di Eliah…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Io ripeto che potrebbe essermi caduto, ma Eliah,\nperché tu avevi un mio stemma?"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "E va bene… Vi svelerò la verità sullo scudetto.\nNon te l’ho rubato Jason. Quello scudetto è mio.\nMe lo diede mio padre Carl."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Anche mio padre si chiama Carl… Non starai dicendo\nche…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Sì, Carl Silton era anche mio padre."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Non è possibile, tu non sei un Silton, il tuo\ncognome è Korner."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Korner è il cognome di mia madre. Tuo padre aveva\nuna relazione segreta con mia madre. Non poteva\nriconoscermi come figlio, e non poteva permettere\nche la cosa venisse svelata. Per questo motivo,\nha sempre mantenuto me e mia madre senza farci\nmai mancare nulla. Carl Silton, per me è stato il\nmiglior padre che si potesse avere. Mi parlava\nspesso di te e mi diceva che doveva venire a\nprendersi cura dei miei fratelli, ma che\npurtroppo la verità non sarebbe mai dovuta venire\na galla per il bene di tutti."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Tu hai sempre saputo questa cosa e non me l’hai\nmai detto? Per questo facevi sempre tutte quelle\ndonazioni alla parrocchia in cui ero io…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Esatto. Erano delle cifre che papà mi aveva\nlasciato in eredità. Io sapevo che con voi è\nsempre stato molto severo e così volevo\nsdebitarmi in qualche modo."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Avresti dovuto dirmelo."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Questo non spiega perché il tuo scudetto era\nvicino al cadavere."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "E nemmeno quello di Jason in camera di Alice.\nLavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Io lo so. Eliah era l’amante di Benny\nMoored, e don Jason Silton quello di Alice."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Cosa? E tu come lo sai? E perché non hai detto\nnulla prima d’ora?\nLavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "L’anno scorso a una cena ho scoperto\nJason e Alice. Don Silton mi ha minacciato di\nrovinare la mia attività di Wedding Planner\nparlando malissimo di me alle spose se io avessi\nsvelato la cosa, mentre mi ha detto che mi avrebbe\nraccomandato a chiunque se io vessi mantenuto il\nsegreto. Per un’attività appena nata come la mia\nla scelta è stata abbastanza obbligata. Avevo\nappena investito tutto quello che avevo.\nRischiavo di trovarmi coperta di debiti."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Stai mentendo! Alice non avrebbe mai fatto una\ncosa del genere! Lei non mi avrebbe mai tradito!"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Come tu facevi con lei?! Lei sapeva di te e\nScarlet cosa credi?!"
+    },
+    {
+      "character": "Detective",
+      "text": "Quindi è vero! Don Jason, lei aveva una relazione\ncon la signora Alice Ceased."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Sì, è vero, ma questo non vuol dire niente. Io\nl’amavo, perché avrei dovuto ucciderla?"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Perché stava per sposarsi con me!"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "E se invece l’avessi uccisa tu perché avevi\nscoperto della nostra relazione? La cosa non mi\nstupirebbe meschino come sei."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Brutto bastar…"
+    },
+    {
+      "character": "Detective",
+      "text": "Signori smettetela immediatamente o vi arresto\nentrambi! Signorina Drags, come faceva a sapere\nanche di Eliah e Benny?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Non lo posso dire."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Ashley, che cosa significa?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Alza le spalle."
+    },
+    {
+      "character": "Detective",
+      "text": "Signorina Drags, le ricordo che posso arrestarla\nper intralcio alla giustizia."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "E io la posso mandare in rovina."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Nick calmati per favore."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Due persone sono morte in casa mia! Voglio sapere\nche cosa è successo!"
+    },
+    {
+      "character": "Detective",
+      "text": "Signori ora basta! Signorina Drags, come sa di\nKorner e Benny Moored?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Li ho visti una volta in un parcheggio."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "In un parcheggio? Quando?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Il 16 giugno."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Il 16 giugno? È la data in cui…"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Ti prego no!"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Tu! Sei stata tu! Eri tu la stalker che mi faceva\ntrovare tutti quei bigliettini davanti casa. Sei\ntu quella che faceva scappare tutte le ragazze\ncon cui uscivo terrorizzandole e minacciandole.\nHai minacciato di rasare a zero una mia ex se non\nmi avesse lasciato! A un’altra hai fatto\nrimuovere la casa parcheggiata davanti a casa mia\ncon una chiamata anonima al carro attrezzi! Eri\nsempre tu?!"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Sono innamorata di te, ma tu non mi hai mai\ncalcolato…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "E perciò hai pensato di comportarti in questo\nmodo?! Tu sei fuori di testa! È lei che dovete\narrestare! E lo dovete fare immediatamente."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Ma io non ho mai fatto del male a nessuno! Le mie\nerano solo minacce."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Sei una pazza squilibrata! Stammi lontano!"
+    },
+    {
+      "character": "Detective",
+      "text": "E va bene, signori, è ora di un altro\ninterrogatorio. I moventi di tutti ormai sono\nlampanti, e nessuno di voi ha un alibi. I\ndetective possono analizzare gli indizi e\ninterrogarvi di nuovo. Siamo sempre più vicini\nalla soluzione del caso. Me lo sento."
+    },
+    {
+      "character": "SCENA",
+      "text": "Dolci.\nSCENA 4\nIl detective richiama tutti i personaggi che si alzano dal tavolo e\ntornano nel salone."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Detective, siamo stufi di rimanere qui. Se non ci\nsono prove della colpevolezza di uno di noi non\npotete trattenerci per più di ventiquattro ore."
+    },
+    {
+      "character": "Detective",
+      "text": "Signore e signori, le indagini stanno procedendo.\nI detective riusciranno presto a risolvere il\ncaso, vedrete."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Nick ha ragione, le ventiquattro ore stanno per\nscadere, fra un po’ ce ne torneremo tutti a casa\ne se volete vederci dovrete arrestarci o\nconvocarci alla stazione di polizia."
+    },
+    {
+      "character": "Detective",
+      "text": "Manca ancora un’ora e sono appena emersi nuovi\nindizi. Facciamo un breve riassunto di cosa\nabbiamo.\n1) In camera da letto abbiamo una donna soffocata\ncon un cuscino, Alice Ceased. Vicino al cuscino\nlasciato per terra abbiamo trovato: un capello di\nScarlet Heaven e lo stemma di famiglia dei Silton.\n2) Abbiamo una donna accoltellata in cucina,\nBenny Moored, sul coltello non ci sono impronte\ndigitali, ma vicino al suo corpo abbiamo trovato\nlo stemma della famiglia Silton e un capello di\nAhsley Drags.\n3) Ultimo, ma non ultimo, abbiamo stillato un\nresoconto dei movimenti di uscita delle camere di\ntutti gli ospiti, in base alle vostre\ntestimonianze incrociate, prese singolarmente. Da\ntale resoconto risulta che: Intorno alle 2: 00 ora\nin cui è deceduta la signora Alice, nessuno di\nvoi a era nella propria camera. La Signora Scarlet\ndichiara di essere stata insieme ad Ashley Drags\ntutta la notte, e che le due sono andate a bere\nin cucina prima che la signora Benny Moored\nvenisse uccisa. Tuttavia, Nick Swan, dichiara che\ndopo essere uscito dalla camera della sua futura\nsposa per accordarsi sulle ultime cose, avrebbe\nvisto rientrare in camera sua solo la cantante\nScarlet, e non Ashley Drags. Anche qui, però,\nsembra esserci un’incongruenza. Jason Silton e\nEliah Korner, dichiarano di essersi salutati\nsull’uscio delle rispettive camere, che sono una\na fianco all’altra verso le due e trenta e di\nessere stati insieme per tutto il tempo fino a\nquell’ora. Tuttavia, Eliah Korner, avrebbe visto\nAshley Drags e Benny Moored andare in cucina verso\nle due di notte. Mentre Jason Silton, dichiara\nche qualche minuto prima delle 2, avrebbe visto\npassare nel salone Nick Swan e Scarlet Heaven\nmentre andavano verso il piano di sopra. Ashley\nDrags, invece, dichiara che mentre saliva insieme\na Scarlet Heaven verso la sua stanza, ha visto\nuscire Benny Moored dalla stanza di Alice Ceased,\nincontrarsi di nascosto con l’amante Eliah Korner\ne scendere le scale. Scarlet Heaven, conferma di\naver visto Nick Swan, dopo che Ashley Drags era\nentrata in camera, e questo sarebbe il motivo per\ncui il futuro sposo e la wedding planner\npotrebbero non essersi effettivamente incrociati.\nAnche se è palese che alcuni di voi stanno\nmentendo, sono sicuro che incrociando le entrate,\nle uscite e le persone che avete viste sarà facile\nricostruire chi di voi ha commesso un omicidio.\nA quel punto, l’unica cosa da fare sarà trovare\nle prove schiaccianti della vostra colpevolezza."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Mi dispiace detective, ma quegli incroci non sono\nattendibili se non sapete chi di noi ha mentito."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Senza contare che anche se capiste chi ha mentito,\nciò non dimostrerebbe la colpevolezza di quel\nqualcuno."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "L’assassino vi fregherà come al solito."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Per fortuna ci penserà la giustizia divina a\npunire peccatori."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "La giustizia divina è clemente, dovrebbe\nperdonare e redimere i peccatori, non punirli."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Dici così perché temi di essere punita in paradiso\nper l’omicidio di Benny non è vero?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Eliah, non esagerare…"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Tu dici a me di non esagerare?! Dopo tutti i mesi\nin cui mi hai stalkerato e rovinato la vita?"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Io ti ho protetto!"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "E sentiamo! Da cosa mi avresti protetto?\nDall’avere una relazione felice con qualcuno che\nnon fossi tu?!"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Sì! Io ti ho protetto e continuo a farlo!"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Ashley, ora che so che sei mia figlia non posso\npermettere che tu tratti così il mio amico!\nCapisco che la tua vita possa essere stata dura\nsenza un padre, ma minacciare o addirittura\nuccidere qualcuno non significa proteggere\nqualcun altro."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Io non ho ucciso nessuno!"
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "E pensi che ti crederemo?!"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Detective, prenda questa. Me l’ha consegnata\nBenny ieri pomeriggio quando siamo arrivate, dopo\nche le ho detto di stare lontana da Eliah per\nl’ennesima volta."
+    },
+    {
+      "character": "Detective",
+      "text": "Una lettera eh… Sembra essere scritta da Benny\nLeggendo\nMoored, la firma corrisponde. ( ) “Ashley\npuoi smetterla di tormentarmi, io non ho mai amato\nEliah, l’unico mio obiettivo è farla pagare a\nAlice per la sua relazione segreta con Silton.\nQuesta sera la costringerò a confessare tutto a\nNick. Se questo non dovesse bastare, dirò a Nick\nche so della sua relazione segreta con Scarlet\nHeaven. Insomma, in un modo o nell’altro, manderò\nall’aria questo matrimonio fasullo, e diventerò\nla spalla su cui piangere, perfetta per Nick.”"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Ero l’unico a non sapere della relazione di mia\nmoglie?"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Sembra impossibile, vero?! Quindi ora puoi\nsmetterla di fingere di non saperlo."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Comodo tirar fuori questa lettera solo ora!\nPotresti averla scritta e firmata tu! O aver\ncostretto Benny a firmarla."
+    },
+    {
+      "character": "Detective",
+      "text": "No, io sono anche perito calligrafico e la\ncalligrafia non corrisponde a quella di nessuno\ndi voi. È proprio di Benny Moored."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Quindi, Benny potrebbe aver litigato con Alice e\ndeciso di ucciderla mentre dormiva giusto?"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "è una spiegazione ragionevole e poi i sensi di\ncolpa l’hanno portata a suicidarsi."
+    },
+    {
+      "character": "Detective",
+      "text": "Questa è di sicuro un’ipotesi che vi\nscagionerebbe tutti… Eppure, pugnalarsi alle\nspalle è un modo davvero singolare di suicidarsi.\nNon trovate? Concederemo ai nostri detective un\nultimo interrogatorio con uno di voi. Uno\nsoltanto, quindi scegliete bene. È la nostra\nultima possibilità di risolvere il caso."
+    },
+    {
+      "character": "SCENA",
+      "text": "Caffè.\nSCENA 5\nTutti i personaggi si riuniscono nel salone."
+    },
+    {
+      "character": "Detective",
+      "text": "Colleghi, sentiamo tutte le varie congetture e\ndimostrazioni che avete da avanzare, vi chiediamo\ndi consegnarci i fogli con la soluzione del caso,\nin modo che nessuno di voi possa modificare quanto\nscritto dopo la consegna."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Le vostre sono tutte congetture. Non ci sono\nprove. Di quello che state dicendo."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Questo resterà uno dei tanti casi irrisolti."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Questo però non è gusto."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Verrà fatta giustizia nel regno dei cieli.\nLavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Forza, andiamocene."
+    },
+    {
+      "character": "Detective",
+      "text": "Le ventiquattro ore non sono ancora scadute, e\nio, detective Handlens ho risolto questo caso.\nQuindi signori accomodatevi. Ora, vi svelerò la\nsoluzione."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Da quanto ha risolto il caso?"
+    },
+    {
+      "character": "Detective",
+      "text": "Da circa un’ora, ma mi mancavano delle prove che\nho chiesto alla scientifica di procurarmi e ora,\nho ottenuto le risposte che cercavo. Partiamo\ndall’omicidio della signorina Benny Moored. Benny\nè stata accoltellata in cucina con un coltello.\nIl principale sospettato è naturalmente Eliah\nKorner vista la sua relazione con Benny, sarebbe\nstato facile per lui attirarla in cucina, e così\nè stato, ma quando è arrivato, qualcuno lo ha\nseguito: Ashley Drags. Dico bene? Ashley ha\nsentito tutta la conversazione che i due hanno\navuto. Eliah voleva le solite effusioni amorose,\nma Benny era distratta, agitata e l’ha respinto.\nCosì, lui arrabbiato se ne è andato e Ashley, per\npaura di essere scoperta, è corsa via a sua volta.\nSignorina Ashley, mi conferma che Eliah non aveva\nguanti al momento dell’incontro con Benny."
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Sì, confermo."
+    },
+    {
+      "character": "Detective",
+      "text": "Ebbene, sul guanto trovato in cucina, è stato\ntrovato del sangue. Noi ovviamente abbiamo tutti\npensato che fosse il sangue della vittima,\ninvece, mescolato a quello, c’era anche il sangue\ndel colpevole. Ci era sfuggito, infatti, ma non\nè sfuggito agli osservatori più attenti, che il\nguanto era tagliato sul dito indice, proprio dove\nno di voi porta un cerottino. Di sbarazzarsi del\nguanto non c’era tempo, ma questo errore è stato\nfatale, non è vero signor Nick Swan?"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Cosa?! E perché avrei dovuto uccidere io Benny\nMoored?"
+    },
+    {
+      "character": "Detective",
+      "text": "Perché lei era innamorata di te. Aveva scoperto\nla tua relazione con Scarlet Heaven e voleva far\nsaltare il tuo matrimonio. Questo matrimonio,\nperò, per te, era troppo importante. Alice era\nsola al mondo, ed era l’ultima discendente della\nfamiglia Ceased, una famiglia decisamente ricca.\nQuesto avrebbe permesso di saldare tutti i tuoi\ndebiti e di liberarti dei tuoi creditori una volta\nper tutte. La prova del sangue sul guanto è\nschiacciante. L’unica possibilità che hai è\nconfessare e arrenderti alla giustizia."
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Complimenti detective, hai azzeccato tutto. Ho\nfatto di tutto perché la colpa cadesse su Ashley\nDrags. Una wedding planner che mi stava costando\nuna fortuna. Poi, quando ho scoperto che era mia\nfiglia, ho cercato di tornare indietro, ma ormai\nera troppo tardi, il suo capello era già stato\nmesso lì, quindi ho solo sperato che non ci\nfossero prove a suo carico e che potessimo\nandarcene tutti da qui liberi e pronti a\nricominciare."
+    },
+    {
+      "character": "Detective",
+      "text": "Mi dispiace, ma lei è in arresto per l’omicidio\ndi Ashley Drags."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "Nick, non ci credo! Dimmi che non è vero!\nLavagnetta"
+    },
+    {
+      "character": "Ashley Drags",
+      "text": "Mi scusi, ma allora a uccidere Alice\nCeased, non può essere stato Nick."
+    },
+    {
+      "character": "Detective",
+      "text": "Giusto signorina Drags, Alice, è stata uccisa da\nqualcun altro."
+    },
+    {
+      "character": "Scarlet Heaven",
+      "text": "è sicuramente stata Benny Moore, è per questo che\nNick l’ha uccisa, per vendetta! Ne sono sicura!\nDimmi che è per questo Nick!"
+    },
+    {
+      "character": "Detective",
+      "text": "Nick ha scoperto questa mattina che la sua futura\nsposa Alice Ceased era morta. Per lui è stato un\nvero shock. Ha sopportato di tutto per riuscire\na sposarla e qualcuno gliel’ha portata via\nproprio prima che il suo piano riuscisse."
+    },
+    {
+      "character": "Eliah Korer",
+      "text": "Ci dica chi è il colpevole, avanti!"
+    },
+    {
+      "character": "Detective",
+      "text": "Il suo nome è Jason Silton."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Jason, non può essere."
+    },
+    {
+      "character": "Detective",
+      "text": "E invece è andata proprio così."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Detective, lei si sta sbagliando… Perché mai\navrei dovuto fare una cosa del genere."
+    },
+    {
+      "character": "Detective",
+      "text": "Suppongo sia perché lei non tollerava l’idea che\nla signora Ceased si sposasse con Nick Swan."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Sono solo supposizioni, io amavo quella donna,\nuccidendola l’avrei persa comunque."
+    },
+    {
+      "character": "Detective",
+      "text": "Io non ho mai detto che lei l’avrebbe persa dopo\nil matrimonio, questo lo ha aggiunto lei."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Beh è ovvio! Una volta sposata non avremmo più\npotuto vederci come succedeva in passato no. Le\nho suggerito io stesso che la cosa sarebbe stata\nrischiosa per lei."
+    },
+    {
+      "character": "Detective",
+      "text": "No, io credo che il suggerimento sia venuto da\nlei, così, dopo l’ultimo incontro clandestino,\nlei ha soffocato la signorina Alice."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Detective, io quella notte non sono entrato in\ncamera di Alice, il mio scudetto lo aveva già da\ntempo. C’era il capello di Scarlet Heaven in\nquella stanza no?! Forse era lei che non voleva\nfar sposare i due."
+    },
+    {
+      "character": "Detective",
+      "text": "Oh no, Scarlet aveva tutto l’interesse che questo\nmatrimonio si facesse. I problemi finanziari di\nNick si sarebbero risolti, e lei gli aveva già\ndato una futura erede, anche se lui non lo sapeva\nancora."
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Comunque io in quella stanza non sono entrato."
+    },
+    {
+      "character": "Detective",
+      "text": "Lei ha pulito molto bene le sue tracce, ma non si\nè accorto di un piccolo particolare."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Di cosa sta parlando?"
+    },
+    {
+      "character": "Detective",
+      "text": "Del pezzetto di vetro che le è caduto da sotto la\nscarpa durante l’attesa in salone. Quando l’ho\nvisto, l’ho raccolto e mostrato ai miei colleghi.\nPensi un po’, corrisponde esattamente al\nframmento mancante nella lampadina rotta in\ncamera della signorina Alice Ceased. Contando che\nla lampadina era ancora rotta stamattina e che\nquando è entrato Nick Swan, la lampadina era\nancora intatta… Giusto?"
+    },
+    {
+      "character": "Nick Swan",
+      "text": "Confermo."
+    },
+    {
+      "character": "Detective",
+      "text": "Mi viene da supporre che questa si sia rotta\nmentre lei cercava di soffocare Alice e sono\nsicuro, che se chiederò ai miei colleghi della\nscientifica di analizzare la composizione chimica\ndella suola delle sue scarpe troveremo delle\ncorrispondenze con il tappeto accanto al letto di\nAlice e con altri pezzi di vetro della lampadina\nche lei ha saggiamente lasciato a terra per non\ngenerare ulteriori sospetti."
+    },
+    {
+      "character": "Eliah Korner",
+      "text": "Jason, dimmi che non sei stato tu… Ci eravamo\nfinalmente ritrovati…"
+    },
+    {
+      "character": "Jason Silton",
+      "text": "Maledetta abatjour… Gliel’ho regalata io come\ndono di nozze. È vero detective. Sono stato io.\nIo le avevo proposto di lasciare l’ordine e di\nsposarla, ma lei mi ha detto che sarebbe stata\nuna sciocchezza, che Nick era un buon partito e\nche con lui sarebbe stata felice, mentre con me\nsi sarebbe ricoperta di scandalo e maldicenze. Le\nho detto che non approvavo assolutamente questo\nmatrimonio, ma lei ha iniziato a dirmi di\nsmetterla e di andarmene. Mi ha detto che il suo\nmatrimonio sarebbe stato l’ultimo giorno in cui\nci saremmo rivolti la parola. Io non ci ho più\nvisto e l’ho soffocata. Poi ho cancellato ogni\nimpronta digitale, e uscendo ho visto un capello\na terra. L’ho preso e l’ho messo vicino al corpo\nsperando di depistare le indagini, ma non è\nservito."
+    },
+    {
+      "character": "Detective",
+      "text": "Signor Silton, lei è in arresto per l’omicidio di\nAlice Ceased. Signore e signori, vi ringrazio per\nla collaborazione e per aver assicurato un altro\ncriminale alla giustizia! Sperando di collaborare\nancora con voi, vi auguriamo una buona serata!"
+    }
+  ],
+  "selected_chars": [
+    "Ashley Drags"
+  ]
+}
