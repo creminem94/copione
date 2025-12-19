@@ -228,8 +228,9 @@ else:
         is_scene = char.strip().upper() == 'SCENA'
         selected = (char in selected_chars) and (not is_scene)
 
-        # Create anchor in main DOM for navigation
-        st.markdown("<div id='anchor_{}'></div>".format(i), unsafe_allow_html=True)
+        # Create anchor only for interactive rows (with Play button)
+        if selected:
+            st.markdown("<div id='anchor_{}'></div>".format(i), unsafe_allow_html=True)
 
         cols = st.columns([1.2, 3, 1])
         with cols[0]:
