@@ -1,10 +1,6 @@
 # app.py
 # Streamlit app: Copione PDF → Editor + Voce istantanea (Web Speech API) + Tap (Python WAV) + Salvataggio
-# Update: performance migliorata
-#  - Selettore multi-checkbox dei personaggi (in testa): solo i selezionati sono interattivi (edit + play/stop)
-#  - Salvataggio anche dell'elenco personaggi selezionati
-#  - Tap generato in Python come WAV (data URI) riprodotto nel click handler
-#  - Personaggi non modificabili; testi plain con tasto Modifica; cache persistente
+# Per-row Play/Stop (dove erano) + Frecce su/giù flottanti fisse in basso a destra
 
 import io
 import re
@@ -21,9 +17,7 @@ from pydub.generators import Sine
 
 CACHE_PATH = 'script_cache.json'
 
-# -------------------------------------------------------------
-# Parser PDF → blocchi {character, text}
-# -------------------------------------------------------------
+# --------------------------- Parser ---------------------------
 
 def _preclean_text(text: str) -> str:
     text = text.replace('\r', '')
@@ -95,9 +89,7 @@ def parse_script_from_pdf(file_bytes: bytes) -> List[Dict[str, str]]:
             compact.append(b)
     return compact
 
-# -------------------------------------------------------------
-# TAP audio (Python → WAV base64 data URI, riutilizzabile)
-# -------------------------------------------------------------
+# --------------------------- TAP WAV ---------------------------
 
 def generate_keyboard_tap(duration_ms: int = 1800,
                           avg_interval_ms: int = 140,
@@ -120,7 +112,6 @@ def generate_keyboard_tap(duration_ms: int = 1800,
     track += AudioSegment.silent(duration=120, frame_rate=sr)
     return track
 
-
 def tap_wav_data_uri(duration_ms: int = 1800) -> str:
     seg = generate_keyboard_tap(duration_ms=duration_ms)
     buf = io.BytesIO()
@@ -128,9 +119,7 @@ def tap_wav_data_uri(duration_ms: int = 1800) -> str:
     b64 = base64.b64encode(buf.getvalue()).decode('ascii')
     return 'data:audio/wav;base64,' + b64
 
-# -------------------------------------------------------------
-# Cache: salva/legge sia blocks sia selected chars (retro-compatibile)
-# -------------------------------------------------------------
+# --------------------------- Cache ---------------------------
 
 def load_cache() -> Tuple[List[Dict[str, str]], List[str]]:
     if not os.path.exists(CACHE_PATH):
@@ -138,7 +127,7 @@ def load_cache() -> Tuple[List[Dict[str, str]], List[str]]:
     try:
         with open(CACHE_PATH, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        if isinstance(data, list):  # vecchio formato
+        if isinstance(data, list):
             return data, []
         if isinstance(data, dict):
             return data.get('blocks', []), data.get('selected_chars', [])
@@ -154,9 +143,7 @@ def save_cache(blocks: List[Dict[str, str]], selected_chars: List[str]):
     except Exception:
         pass
 
-# -------------------------------------------------------------
-# UI
-# -------------------------------------------------------------
+# --------------------------- UI ---------------------------
 
 st.set_page_config(page_title='Copione → Voce + Tap (WAV) + Salvataggio', layout='wide')
 st.title('Copione PDF → Voce istantanea (Web Speech API) + Tap (Python WAV) + Salvataggio')
@@ -179,7 +166,7 @@ with st.sidebar:
             st.session_state['selected_chars'] = []
             st.success('Cache rimossa.')
 
-# Stato iniziale
+# Stato
 if 'blocks' not in st.session_state or 'selected_chars' not in st.session_state:
     blocks_cached, selected_cached = load_cache()
     if 'blocks' not in st.session_state:
@@ -187,32 +174,26 @@ if 'blocks' not in st.session_state or 'selected_chars' not in st.session_state:
     if 'selected_chars' not in st.session_state:
         st.session_state['selected_chars'] = selected_cached
 
-# Carica da PDF se presente
 if uploaded_pdf is not None:
     st.session_state['blocks'] = parse_script_from_pdf(uploaded_pdf.read())
-    # Default: nessun personaggio selezionato (pagina più leggera)
     st.session_state['selected_chars'] = []
     save_cache(st.session_state['blocks'], st.session_state['selected_chars'])
 
 blocks = st.session_state['blocks']
 selected_chars = set(st.session_state.get('selected_chars', []))
 
-# TAP data URI globale
 if 'tap_uri' not in st.session_state:
     st.session_state['tap_uri'] = tap_wav_data_uri(duration_ms=1800)
 
 tap_uri = st.session_state['tap_uri']
 
 if not blocks:
-    st.info('Carica il PDF oppure ripristina la cache salvata. I personaggi non si modificano; i testi sono plain text con tasto Modifica; abilita interazione dal selettore personaggi qui sotto.')
+    st.info('Carica il PDF oppure ripristina la cache salvata. I personaggi non si modificano; abilita interazione dal selettore qui sotto.')
 else:
-    # ====== SELETTORE PERSONAGGI (checkbox multiple) ======
+    # Selettore personaggi
     st.subheader('Seleziona i personaggi da rendere interattivi')
-    # Estrai elenco personaggi (escludi SCENA)
     chars = [b['character'] for b in blocks if b['character'].strip().upper() != 'SCENA']
     uniq = sorted(dict.fromkeys(chars))
-
-    # Mostra in 3 colonne per ridurre altezza
     cols_sel = st.columns(3)
     any_changed = False
     for idx, name in enumerate(uniq):
@@ -225,36 +206,42 @@ else:
                 selected_chars.add(name); any_changed = True
             if (not val) and name in selected_chars:
                 selected_chars.remove(name); any_changed = True
-    # Aggiorna stato e salva se cambiato
     if any_changed:
         st.session_state['selected_chars'] = sorted(selected_chars)
         save_cache(blocks, st.session_state['selected_chars'])
 
     st.divider()
 
-    # ====== RENDER BLOCS ======
-    # Ottimizzazione: crea edit_flags solo per lunghezza blocks
+    # Render blocchi con per-row Play/Stop e anchor per navigazione
     if 'edit_flags' not in st.session_state or len(st.session_state['edit_flags']) != len(blocks):
         st.session_state['edit_flags'] = [False]*len(blocks)
 
-    # Render più leggero per i non selezionati
+    # Add CSS for anchors
+    st.markdown("""
+<style>
+  div[id^='anchor_'] { scroll-margin-top: 96px; }
+</style>
+""", unsafe_allow_html=True)
+    
     for i, b in enumerate(blocks):
         char = b['character']
         is_scene = char.strip().upper() == 'SCENA'
         selected = (char in selected_chars) and (not is_scene)
 
-        st.divider()
+        # Create anchor in main DOM for navigation
+        st.markdown("<div id='anchor_{}'></div>".format(i), unsafe_allow_html=True)
+
         cols = st.columns([1.2, 3, 1])
         with cols[0]:
             st.text_input('Personaggio', value=char, key=f'char_static_{i}', disabled=True)
         with cols[1]:
             if not selected:
-                # Solo testo (plain) per non selezionati o SCENA
-                st.markdown(f"<div style='white-space:pre-wrap;border:1px solid #ddd;padding:8px;border-radius:6px;background:#fafafa'>{b['text']}</div>", unsafe_allow_html=True)
+                st.markdown("<div style='white-space:pre-wrap;border:1px solid #ddd;padding:8px;border-radius:6px;background:#fafafa'>{}</div>".format(b['text'].replace('<','&lt;').replace('>','&gt;')), unsafe_allow_html=True)
             else:
-                # Interattivo solo per selezionati
                 if not st.session_state['edit_flags'][i]:
-                    st.markdown(f"<div style='white-space:pre-wrap;border:1px solid #ddd;padding:8px;border-radius:6px;background:#fffef8'>{b['text']}</div>", unsafe_allow_html=True)
+                    st.markdown("<div style='white-space:pre-wrap;border:1px solid #ddd;padding:8px;border-radius:6px;background:#fffef8'>{}</div>".format(b['text'].replace('<','&lt;').replace('>','&gt;')), unsafe_allow_html=True)
+                    if st.button('Modifica', key=f'btnedit_{i}'):
+                        st.session_state['edit_flags'][i] = True
                 else:
                     new_text = st.text_area('Modifica battuta', value=b['text'], height=140, key=f'text_edit_{i}')
                     c1, c2 = st.columns(2)
@@ -267,61 +254,101 @@ else:
                     with c2:
                         if st.button('Annulla', key=f'btncancel_{i}'):
                             st.session_state['edit_flags'][i] = False
-                if not st.session_state['edit_flags'][i]:
-                    if st.button('Modifica', key=f'btnedit_{i}'):
-                        st.session_state['edit_flags'][i] = True
         with cols[2]:
             if selected:
                 use_tap = st.checkbox('Tap', value=True, key=f'tap_{i}', help='Riproduci suono tastiera prima della voce')
-                # Bottone Play/Stop (solo per selezionati) con handler JS dedicato
-                escaped = blocks[i]['text'].replace("'", "\\'").replace("\n", " ")
-                html = f"""
-                <div>
-                  <button id='btn_{i}' style='padding:6px 10px;'>Play / Stop</button>
-                  <audio id='tap_{i}' src='{tap_uri if use_tap else ''}' preload='auto'></audio>
-                  <script>
-                  (function(){{
-                    const btn  = document.getElementById('btn_{i}');
-                    const tap  = document.getElementById('tap_{i}');
-                    const text = '{escaped}';
-                    let playing = false;
-                    let utter = null;
-                    function selectVoice(){{
-                      const voices = window.speechSynthesis.getVoices();
-                      for (let v of voices){{
-                        const name=(v.name||'').toLowerCase(); const vg=(v.lang||'').toLowerCase();
-                        if (vg.startsWith('it') && (name.includes('female')||name.includes('fem')||name.includes('alice')||name.includes('donna'))) return v;
-                      }}
-                      for (let v of voices){{ if ((v.lang||'').toLowerCase().startsWith('it')) return v; }}
-                      return null;
-                    }}
-                    function stopAll(){{
-                      try{{ window.speechSynthesis.cancel(); }}catch(e){{}}
-                      if (tap){{ try{{ tap.pause(); tap.currentTime = 0; }}catch(e){{}} }}
-                      playing=false;
-                    }}
-                    btn.onclick = function(){{
-                      if (playing){{ stopAll(); return; }}
-                      playing = true;
-                      utter = new SpeechSynthesisUtterance(text);
-                      utter.lang = 'it-IT'; utter.rate = 1;
-                      const v = selectVoice(); if (v) utter.voice = v;
-                      utter.onend = stopAll; utter.onerror = stopAll;
-                      if (tap && tap.src){{
-                        tap.onended = function(){{ window.speechSynthesis.cancel(); window.speechSynthesis.speak(utter); }};
-                        tap.onerror = function(){{ window.speechSynthesis.cancel(); window.speechSynthesis.speak(utter); }};
-                        tap.play().catch(function(){{ window.speechSynthesis.cancel(); window.speechSynthesis.speak(utter); }});
-                      }} else {{
-                        window.speechSynthesis.cancel(); window.speechSynthesis.speak(utter);
-                      }}
-                    }};
-                  }})();
-                  </script>
-                </div>
-                """
-                st.components.v1.html(html, height=60)
+                text_safe = blocks[i]['text'].replace("'", "\\'").replace("\n", " ")
+                tap_src = tap_uri if use_tap else ''
+                
+                # Render button with st.components.v1.html for proper isolation
+                button_html = f"""
+<button id='btn_{i}' style='padding:6px 12px; cursor:pointer; border:1px solid #ccc; border-radius:4px; background:#f0f0f0; min-width:70px;'>Play</button>
+<audio id='tap_{i}' src='{tap_src}' preload='auto'></audio>
+<script>
+(function() {{
+    const btn = document.getElementById('btn_{i}');
+    const tap = document.getElementById('tap_{i}');
+    const text = '{text_safe}';
+    let playing = false;
+    
+    function selectVoice() {{
+        const voices = window.speechSynthesis.getVoices() || [];
+        for (let v of voices) {{
+            const name=(v.name||'').toLowerCase(); const vg=(v.lang||'').toLowerCase();
+            if (vg.startsWith('it') && (name.includes('female')||name.includes('fem')||name.includes('alice')||name.includes('donna'))) return v;
+        }}
+        for (let v of voices) {{ if ((v.lang||'').toLowerCase().startsWith('it')) return v; }}
+        return null;
+    }}
+    
+    function stopAll() {{
+        try {{ window.speechSynthesis.cancel(); }} catch(e) {{}}
+        if (tap) {{ try {{ tap.pause(); tap.currentTime = 0; }} catch(e) {{}} }}
+        playing = false;
+        if (btn) btn.textContent = 'Play';
+    }}
+    
+    if (btn) {{
+        btn.onclick = function() {{
+            if (playing) {{ stopAll(); return; }}
+            playing = true;
+            btn.textContent = 'Stop';
+            
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = 'it-IT'; utter.rate = 1;
+            const v = selectVoice(); if (v) utter.voice = v;
+            
+            utter.onend = stopAll;
+            utter.onerror = stopAll;
+            
+            if (tap && tap.src) {{
+                tap.onended = function() {{ try {{ window.speechSynthesis.cancel(); }} catch(e) {{}} window.speechSynthesis.speak(utter); }};
+                tap.onerror = function() {{ try {{ window.speechSynthesis.cancel(); }} catch(e) {{}} window.speechSynthesis.speak(utter); }};
+                tap.play().catch(function() {{ try {{ window.speechSynthesis.cancel(); }} catch(e) {{}} window.speechSynthesis.speak(utter); }});
+            }} else {{
+                try {{ window.speechSynthesis.cancel(); }} catch(e) {{}} window.speechSynthesis.speak(utter);
+            }}
+        }};
+    }}
+}})();
+</script>
+"""
+                st.components.v1.html(button_html, height=60)
+        
+        st.divider()
 
-    # Esporta copione
+        # Navigation - inject buttons into parent document to avoid iframe constraints
+        nav_html = """
+<script>
+(function(){
+    const parentDoc = window.parent?.document || document;
+    let root = parentDoc.getElementById('navFloatingGlobal');
+    if (!root){
+        root = parentDoc.createElement('div');
+        root.id = 'navFloatingGlobal';
+        root.style.cssText = 'position:fixed; right:16px; bottom:16px; z-index:99999; display:flex; gap:8px;';
+        const btnUp = parentDoc.createElement('button');
+        btnUp.id = 'navUpGlobal';
+        btnUp.textContent = '↑';
+        btnUp.style.cssText = 'padding:8px 12px; border-radius:6px; cursor:pointer;';
+        const btnDown = parentDoc.createElement('button');
+        btnDown.id = 'navDownGlobal';
+        btnDown.textContent = '↓';
+        btnDown.style.cssText = 'padding:8px 12px; border-radius:6px; cursor:pointer;';
+        root.appendChild(btnUp);
+        root.appendChild(btnDown);
+        parentDoc.body.appendChild(root);
+
+        let idx = 0;
+        const getAnchors = () => Array.from(parentDoc.querySelectorAll("div[id^='anchor_']"));
+        const scrollToCurrent = () => { const anchors = getAnchors(); if (!anchors.length) return; const el = anchors[idx]; if (el) el.scrollIntoView({behavior:'smooth', block:'center'}); };
+        btnUp.onclick = () => { const anchors = getAnchors(); if (!anchors.length) return; idx = (idx - 1 + anchors.length) % anchors.length; scrollToCurrent(); };
+        btnDown.onclick = () => { const anchors = getAnchors(); if (!anchors.length) return; idx = (idx + 1) % anchors.length; scrollToCurrent(); };
+    }
+})();
+</script>
+"""
+        st.components.v1.html(nav_html, height=0)
     st.divider()
     colx, coly = st.columns(2)
     with colx:
