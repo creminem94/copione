@@ -326,7 +326,7 @@ else:
     if (!root){
         root = parentDoc.createElement('div');
         root.id = 'navFloatingGlobal';
-        root.style.cssText = 'position:fixed; right:16px; bottom:16px; z-index:99999; display:flex; gap:8px;';
+        root.style.cssText = 'position:fixed; right:16px; bottom:80px; z-index:99999; display:flex; gap:8px;';
         const btnUp = parentDoc.createElement('button');
         btnUp.id = 'navUpGlobal';
         btnUp.textContent = '↑';
