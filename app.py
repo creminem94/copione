@@ -145,8 +145,7 @@ def save_cache(blocks: List[Dict[str, str]], selected_chars: List[str]):
 
 # --------------------------- UI ---------------------------
 
-st.set_page_config(page_title='Copione → Voce + Tap (WAV) + Salvataggio', layout='wide')
-st.title('Copione PDF → Voce istantanea (Web Speech API) + Tap (Python WAV) + Salvataggio')
+st.set_page_config(page_title='Copione', layout='wide')
 
 with st.sidebar:
     st.header('Impostazioni')
