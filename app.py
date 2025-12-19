@@ -97,9 +97,11 @@ def generate_keyboard_tap(duration_ms: int = 1800,
                           volume_db: float = 0.0) -> AudioSegment:
     sr = 44100
     track = AudioSegment.silent(duration=duration_ms, frame_rate=sr)
-    click_hi = Sine(1500).to_audio_segment(duration=22, volume=volume_db).fade_out(12)
-    click_lo = Sine(180).to_audio_segment(duration=90, volume=volume_db-2).fade_out(60)
-    click = click_hi.overlay(click_lo)
+    # iPhone/Android keyboard tap: very short, clean, subtle click
+    click_hi = Sine(1400).to_audio_segment(duration=8, volume=volume_db-2).fade_out(5)
+    click_mid = Sine(700).to_audio_segment(duration=10, volume=volume_db-4).fade_out(7)
+    click_lo = Sine(200).to_audio_segment(duration=15, volume=volume_db-8).fade_out(10)
+    click = click_hi.overlay(click_mid).overlay(click_lo)
     import numpy as np
     rng = np.random.default_rng()
     t = 0
